@@ -1,0 +1,113 @@
+
+
+.whiteText{
+  color:#ffffff;
+}
+.blackText{
+  color: #000000;
+}
+ body, html{
+  background-color: #ffffff;
+  margin:0;
+  overflow-x: hidden;
+ }
+ a, b , p, h1, h2, h3, span{
+/*SET FONT YOU WANT*/
+  /*font-family:xy;*/
+
+  font-weight: normal;
+  }
+ 
+ a {
+  text-decoration: none;
+  color: #000000;
+} 
+ a:hover {
+  text-decoration: none;
+  color: #9D9D9D;
+} 
+
+
+ header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0px 20px;
+  backface-visibility: hidden;
+}
+
+nav{
+  width: 70%;
+}
+
+/* Style the navigation links */
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+header nav ul li {
+  margin-left: 4vw; 
+}
+
+header nav ul li:first-child {
+  margin-left: -8%;
+}
+
+
+header nav ul li a {
+  text-decoration: none;
+ font-weight: 100 !important;
+ font-size: 15px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+section {
+  display: none;
+  width:100%;
+}
+
+section:first-of-type{
+  display: block;
+}
+
+.contentContainer{
+  margin-top: 11vh;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+/* START PAGE
+*/
+.bannerImg{
+  width: 25%;
+}
+
+/*
+* SECOND PAGE
+*/
+
+
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 600px){
+} 
